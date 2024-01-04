@@ -1,0 +1,109 @@
+/* style.css */
+
+.fb-post {
+    border: 1px solid #ddd;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 400px; /* Adjust the width as needed */
+    margin-left: 32%;
+}
+
+.fb-post img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.fb-post .fb-thumbnail {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.fb-post-content {
+    padding: 16px;
+}
+
+.fb-brand {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 5px;
+}
+
+.fb-description {
+    margin-top: 12px;
+}
+
+.fb-post-grid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fb-post-grid img {
+    width: calc(33.33% - 2%); /* Adjust the width as needed */
+    margin: 1%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.fb-post-grid img:hover {
+    transform: scale(1.1);
+}
+
+.fb-image-count {
+    margin-top: 8px;
+    text-align: right;
+    color: #555;
+}
+
+.fb-options {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+}
+
+.fb-options button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.fb-counts {
+    margin-top: 8px;
+    color: #555;
+}
+
+.fb-counts > .counts {
+    margin-right: 20px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.fa-thumbs-up {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.fa-comment {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.fa-share-nodes {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/* ... (Other styles) */
